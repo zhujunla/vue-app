@@ -13,11 +13,16 @@
   </div>
 </template>
 <script>
+import echarts from "echarts";
+
 export default {
   name: "four",
   components: {},
   data() {
-    return {};
+    return {
+        color: ['#fdd36d','#ff4800', '#d33efb', '#31ddfb', '#7bd540','#dfe55f',  '#0071ff', '#bda29a','#6e7074', '#546570', '#c4ccd3'],
+
+    };
   },
   mounted() {
       this.workF();
@@ -25,39 +30,42 @@ export default {
   },
   methods: {
     workF: function() {
+        var _this = this;
       var myChart = echarts.init(this.$refs.work);
       var option = {
         tooltip: {
           trigger: "item",
           formatter: "{a} <br/>{b}: {c} ({d}%)"
         },
-        legend: {
-          orient: "vertical",
-          x: "left",
-          data: ["直接访问", "邮件营销", "联盟广告", "视频广告", "搜索引擎"]
-        },
+        color:_this.color,
+        // legend: {
+        //   orient: "vertical",
+        //   x: "left",
+        //   data: ["直接访问", "邮件营销", "联盟广告", "视频广告", "搜索引擎"]
+        // },
+
         series: [
           {
             name: "访问来源",
             type: "pie",
             radius: ["50%", "70%"],
-            avoidLabelOverlap: false,
+            avoidLabelOverlap: false,           
             label: {
               normal: {
-                show: false,
-                position: "center"
+                // show: false,
+                // position: "center"
               },
               emphasis: {
                 show: true,
                 textStyle: {
-                  fontSize: "30",
-                  fontWeight: "bold"
+                  fontSize: "20",
+                //   fontWeight: "bold"
                 }
               }
             },
             labelLine: {
               normal: {
-                show: false
+                show: true
               }
             },
             data: [
@@ -73,17 +81,19 @@ export default {
       myChart.setOption(option);
     },
     fundF: function() {
+    var _this = this;
       var myChart = echarts.init(this.$refs.fund);
       var option = {
         tooltip: {
           trigger: "item",
           formatter: "{a} <br/>{b}: {c} ({d}%)"
         },
-        legend: {
-          orient: "vertical",
-          x: "left",
-          data: ["直接访问", "邮件营销", "联盟广告", "视频广告", "搜索引擎"]
-        },
+        color:_this.color,
+        // legend: {
+        //   orient: "vertical",
+        //   x: "left",
+        //   data: ["直接访问", "邮件营销", "联盟广告", "视频广告", "搜索引擎"]
+        // },
         series: [
           {
             name: "访问来源",
@@ -92,20 +102,20 @@ export default {
             avoidLabelOverlap: false,
             label: {
               normal: {
-                show: false,
-                position: "center"
+                // show: false,
+                // position: "center"
               },
               emphasis: {
                 show: true,
                 textStyle: {
-                  fontSize: "30",
-                  fontWeight: "bold"
+                  fontSize: "20",
+                //   fontWeight: "bold"
                 }
               }
             },
             labelLine: {
               normal: {
-                show: false
+                show: true
               }
             },
             data: [

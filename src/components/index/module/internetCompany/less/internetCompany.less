@@ -8,11 +8,22 @@
 @00a8ff:#00a8ff;
 
 
-.RightInfo{
-    
+.internetCompany{
+    display: flex;
+    margin-top: 14px; 
+    .flex2{
+        flex: 5 !important;
+    }
+    .flex1{
+        flex: 8 !important;
+    }
+    .internetCompany_flex{
+        flex: 1;
+        background-color: @303a4e;
+        padding: 10px;
+        height: 320px;
+        overflow: hidden;
         .map{
-            background-color: @303a4e;
-            padding: 10px;
             .one_top{
                 font-size: 12px;
                 .img{
@@ -26,7 +37,7 @@
                         display: inline-block;
                         width: 14px;
                         height: 20px;
-                        background-image: url("../../../image/3.png");
+                        background-image: url("../../../image/11.png");
                         background-repeat: no-repeat;
                         margin-top: 2px;
                         margin-left: 5px;
@@ -37,10 +48,27 @@
                 }
             }
             .mapShow{
-                // height: 310px;
+                height: 390px;
                 position: relative;
-                .mapShow_c{
-                    height: 244px;
+                .mapShow_left{
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    .left_info{
+                        background-image: url('../../../image/12.png');
+                        background-repeat: no-repeat;
+                        height: 40px;
+                        width: 100px;
+                        margin-top: 14px;
+                        line-height: 18px;
+                        color: white;
+                        .p{
+                            padding-left: 5px;
+                        }
+                        .p:first-child{
+                            font-size: 14px;
+                        }
+                    }
                 }
                 .mapShow_bar{
                     margin-top: 14px;
@@ -49,15 +77,15 @@
                     }
                 }
                 .coreKPI{
-                    height: 280px;
+                    height: 250px;
                 }
-                .mr10{
-                    margin-right: 10px;
+                .mr20{
+                    margin-right: 20px;
                 }
                 .C00a8ff{
                     color: @00a8ff !important;
                 }
             }
         }
-    
+    }
 }

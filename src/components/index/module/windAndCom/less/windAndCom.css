@@ -1,0 +1,88 @@
+.windAndCom {
+  display: flex;
+  margin-top: 14px;
+}
+.windAndCom .flex2 {
+  flex: 5 !important;
+}
+.windAndCom .flex1 {
+  flex: 8 !important;
+}
+.windAndCom .windAndCom_flex {
+  flex: 1;
+  background-color: #303a4e;
+  padding: 10px;
+  height: 320px;
+  overflow: hidden;
+}
+.windAndCom .windAndCom_flex .map .one_top {
+  font-size: 12px;
+}
+.windAndCom .windAndCom_flex .map .one_top .img {
+  width: 134px ;
+  height: 20px;
+  background-image: url("../../../image/1.png");
+  background-repeat: no-repeat;
+  color: white;
+  line-height: 20px;
+}
+.windAndCom .windAndCom_flex .map .one_top .img .imgShowW {
+  display: inline-block;
+  width: 14px;
+  height: 20px;
+  background-image: url("../../../image/8.png");
+  background-repeat: no-repeat;
+  margin-top: 2px;
+  margin-left: 5px;
+}
+.windAndCom .windAndCom_flex .map .one_top .img .imgShowC {
+  display: inline-block;
+  width: 14px;
+  height: 20px;
+  background-image: url("../../../image/7.png");
+  background-repeat: no-repeat;
+  margin-top: 2px;
+  margin-left: 5px;
+}
+.windAndCom .windAndCom_flex .map .one_top .years {
+  color: #00a8ff;
+}
+.windAndCom .windAndCom_flex .map .mapShow {
+  height: 390px;
+  position: relative;
+}
+.windAndCom .windAndCom_flex .map .mapShow .mapShow_left {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.windAndCom .windAndCom_flex .map .mapShow .mapShow_left .left_info {
+  background-image: url('../../../image/12.png');
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 100px;
+  margin-top: 14px;
+  line-height: 18px;
+  color: white;
+}
+.windAndCom .windAndCom_flex .map .mapShow .mapShow_left .left_info .p {
+  padding-left: 5px;
+}
+.windAndCom .windAndCom_flex .map .mapShow .mapShow_left .left_info .p:first-child {
+  font-size: 14px;
+}
+.windAndCom .windAndCom_flex .map .mapShow .mapShow_bar {
+  margin-top: 14px;
+}
+.windAndCom .windAndCom_flex .map .mapShow .mapShow_bar .span {
+  color: #acbbc8;
+}
+.windAndCom .windAndCom_flex .map .mapShow .coreKPI {
+  height: 250px;
+}
+.windAndCom .windAndCom_flex .map .mapShow .mr20 {
+  margin-right: 20px;
+}
+.windAndCom .windAndCom_flex .map .mapShow .C00a8ff {
+  color: #00a8ff !important;
+}

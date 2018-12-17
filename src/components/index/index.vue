@@ -21,10 +21,14 @@
 					<div class="fl budy_lL">
 						<cycleFour></cycleFour>
 						<mapAndBar></mapAndBar>						
+						<windAndCom></windAndCom>						
 					</div>
 					<div class="fr body_rR">
 						<RightInfo></RightInfo>
 					</div>
+				</div>
+				<div class="mt14">
+					<internetCompany></internetCompany>
 				</div>
 			</div>
 
@@ -38,6 +42,8 @@
 import cycleFour from "./module/four/four";
 import mapAndBar from "./module/mapAndBar/mapAndBar";
 import RightInfo from "./module/company/RightInfo";
+import windAndCom from "./module/windAndCom/windAndCom";
+import internetCompany from "./module/internetCompany/internetCompany";
 
 export default {
     name:"index",
@@ -45,6 +51,8 @@ export default {
 		cycleFour:cycleFour,
 		mapAndBar:mapAndBar,
 		RightInfo:RightInfo,
+		windAndCom:windAndCom,
+		internetCompany:internetCompany,
 	},
     data () {
 		return {
