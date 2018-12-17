@@ -5,7 +5,7 @@
         <span class="imgShowC fl"></span>
         <span class="ml10 fl">企业执行力</span>
       </div>
-      <div class="fr years">2018</div>
+      <div class="fr years"><span class="btn">两学一做</span>	</div>
     </div>
     <div class="mapShow">      
       <div ref="coreKPI" class="coreKPI"></div>

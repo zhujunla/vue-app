@@ -5,7 +5,7 @@
         <span class="imgShow fl"></span>
         <span class="ml10 fl">企业定位</span>
       </div>
-      <div class="fr years">2018</div>
+      <div class="fr years"><span class="btn">总资产额</span>	</div>
     </div>
     <div class="mapShow">
       <div class="mapShow_bar">

@@ -5,7 +5,7 @@
         <span class="imgShow fl"></span>
         <span class="ml10 fl">企业数据</span>
       </div>
-      <div class="fr years">2018</div>
+      <div class="fr years"><span class="btn">数据采集</span>	</div>
     </div>
     <div class="mapShow">
       <div ref="coreKPI" class="coreKPI"></div>
