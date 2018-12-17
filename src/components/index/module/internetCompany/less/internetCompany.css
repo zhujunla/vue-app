@@ -12,7 +12,7 @@
   flex: 1;
   background-color: #303a4e;
   padding: 10px;
-  height: 320px;
+  height: 216px;
   overflow: hidden;
 }
 .internetCompany .internetCompany_flex .map .one_top {
@@ -39,7 +39,7 @@
   color: #00a8ff;
 }
 .internetCompany .internetCompany_flex .map .mapShow {
-  height: 390px;
+  height: 200px;
   position: relative;
 }
 .internetCompany .internetCompany_flex .map .mapShow .mapShow_left {
@@ -66,10 +66,13 @@
   margin-top: 14px;
 }
 .internetCompany .internetCompany_flex .map .mapShow .mapShow_bar .span {
-  color: #eeeeee;
+  color: #cccccc;
 }
 .internetCompany .internetCompany_flex .map .mapShow .coreKPI {
-  height: 250px;
+  height: 186px;
+}
+.internetCompany .internetCompany_flex .map .mapShow .coreKPI div canvas {
+  top: -20px !important;
 }
 .internetCompany .internetCompany_flex .map .mapShow .mr20 {
   margin-right: 20px;

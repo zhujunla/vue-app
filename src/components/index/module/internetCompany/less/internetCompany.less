@@ -4,7 +4,7 @@
 @00effc:#00effc;
 @6d87af:#6d87af;
 @303a4e:#303a4e;
-@eeeeee:#eeeeee;
+@cccccc:#cccccc;
 @00a8ff:#00a8ff;
 
 
@@ -21,7 +21,7 @@
         flex: 1;
         background-color: @303a4e;
         padding: 10px;
-        height: 320px;
+        height: 216px;
         overflow: hidden;
         .map{
             .one_top{
@@ -48,7 +48,7 @@
                 }
             }
             .mapShow{
-                height: 390px;
+                height: 200px;
                 position: relative;
                 .mapShow_left{
                     position: absolute;
@@ -74,11 +74,17 @@
                 .mapShow_bar{
                     margin-top: 14px;
                     .span{
-                        color: @eeeeee;
+                        color: @cccccc;
                     }
                 }
                 .coreKPI{
-                    height: 250px;
+                    height: 186px;
+                    div{
+                       canvas{
+                            top: -20px !important;
+                        } 
+                    }
+                    
                 }
                 .mr20{
                     margin-right: 20px;

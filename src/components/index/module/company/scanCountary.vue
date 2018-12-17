@@ -66,11 +66,11 @@ export default {
                 // },
                 indicator: [
                 //    { name: '告警总数', max:totalWarmsN},
-                { name: '竞争类', max: 2000},
-                   { name: '艺术类', max: 2000},
-                   { name: '教育类', max: 2000},
-                   { name: '功能类', max: 2000},
-                   { name: '经融类', max: 2000},
+                { name: '竞争类', max: 1000},
+                   { name: '艺术类', max: 1000},
+                   { name: '教育类', max: 1000},
+                   { name: '功能类', max: 1000},
+                   { name: '经融类', max: 1000},
                    
                    
                 ],
@@ -81,13 +81,13 @@ export default {
                 splitLine: {
                     lineStyle: {
                         color: [
-                            '#2D4E68'
+                            '#888888'
                         ].reverse()
                     }
                 },
                 axisLine: {
                     lineStyle: {
-                        color:'#2D4E68'
+                        color:'#888888'
                     }
                 }
             },
@@ -104,7 +104,7 @@ export default {
                 
                 areaStyle: {
                     normal: {
-                        opacity: 0.05
+                        opacity: .6
                     }
                 },
                 data : [

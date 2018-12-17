@@ -1,14 +1,14 @@
 .body .body_rR {
-  width: 380px;
+  width: 445px;
 }
 .body .budy_lL {
-  width: 1176px;
+  width: 1430px;
 }
 .body .budy_lL .lL_four {
   display: flex;
 }
 .body .budy_lL .lL_four .four_One {
-  width: 284px;
+  width: 347px;
   background-color: #303a4e;
   padding: 14px 30px;
 }
@@ -49,7 +49,7 @@
   line-height: 40px;
 }
 .header {
-  height: 74px;
+  height: 54px;
   background: linear-gradient(0deg, #2e3647, #222832);
   width: 100%;
   position: relative;
@@ -61,8 +61,8 @@
   width: 100%;
 }
 .header .header_logo .logo_img {
-  width: 1570px;
-  height: 80px;
+  width: 1890px;
+  height: 60px;
   margin: 0 auto;
   background-image: url("../image/14.png");
   background-repeat: no-repeat;
@@ -71,7 +71,7 @@
   font-size: 32px;
   color: #add9f4;
   font-weight: bold;
-  line-height: 80px;
+  line-height: 60px;
   position: relative;
 }
 .header .header_logo .logo_img .logo_time {
@@ -80,21 +80,21 @@
   top: 0;
 }
 .header .header_logo .logo_img .logo_time .time_sec {
-  font-size: 40px ;
+  font-size: 34px ;
   color: #00effc;
 }
 .header .header_logo .logo_img .logo_time .time_week {
   color: #6d87af;
   margin-left: 20px;
   font-size: 14px;
-  line-height: 20px;
-  margin-top: 20px;
+  line-height: 15px;
+  margin-top: 15px;
 }
 body {
   background-color: #2e332e !important;
 }
 .w11570 {
-  width: 1570px;
+  width: 1890px;
   margin: 0 auto;
 }
 .ml14 {
