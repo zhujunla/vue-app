@@ -18,29 +18,30 @@
                 four_One:{
                     four_One:'four_One',
                     color:{
-                        font:"red",
-                        next:"yellow"
+                        font:"#4995f5",
+                        next:"#02d9e9"
                     }
                 },
                 four_two:{
                     four_One:'four_One ml14',
+                    
                     color:{
-                        font:"red",
-                        next:"yellow"
+                        font:"#febbaa",
+                        next:"#f6a1da"                        
                     }
                 },
                 four_3:{
                     four_One:'four_One ml14',
                     color:{
-                        font:"red",
-                        next:"bule"
+                        font:"#31c3fc",
+                        next:"#febbaa"
                     }
                 },
                 four_4:{
                     four_One:'four_One ml14',
                     color:{
-                        font:"red",
-                        next:"yellow"
+                        font:"#bda9ee",
+                        next:"#895dfa"
                     }
                 }
                 
