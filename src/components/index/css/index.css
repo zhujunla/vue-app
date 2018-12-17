@@ -1,6 +1,5 @@
 .body .body_rR {
   width: 380px;
-  background-color: #303a4e;
 }
 .body .budy_lL {
   width: 1176px;
@@ -92,7 +91,7 @@
   margin-top: 20px;
 }
 body {
-  background-color: #2e332e;
+  background-color: #2e332e !important;
 }
 .w11570 {
   width: 1570px;
