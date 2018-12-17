@@ -4,7 +4,7 @@
             <div class="fl img clearfix">
                 <span class="imgShow fl"></span><span class="ml10 fl">国资监管平台</span>
             </div>
-            <div class="fr years">
+            <div class="fr years " style="cursor:pointer">
                 详细列表
             </div>
         </div>

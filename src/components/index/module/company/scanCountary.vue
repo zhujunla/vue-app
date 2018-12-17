@@ -5,7 +5,7 @@
         <span class="imgShow fl"></span>
         <span class="ml10 fl">国资监管平台</span>
       </div>
-      <div class="fr years">总资产额</div>
+      <div class="fr years"><span class="btn">2018</span></div>
     </div>
     <div class="mapShow">
       <div class="mapShow_bar">
