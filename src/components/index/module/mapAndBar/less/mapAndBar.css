@@ -34,6 +34,9 @@
   height: 390px;
   position: relative;
 }
+.mapAndBar .mapAndBar_flex .map .mapShow .mapHeight {
+  height: 360px;
+}
 .mapAndBar .mapAndBar_flex .map .mapShow .mapShow_left {
   position: absolute;
   left: 0;
@@ -47,11 +50,28 @@
   margin-top: 14px;
   line-height: 18px;
   color: white;
+  cursor: pointer;
 }
 .mapAndBar .mapAndBar_flex .map .mapShow .mapShow_left .left_info .p {
   padding-left: 5px;
 }
 .mapAndBar .mapAndBar_flex .map .mapShow .mapShow_left .left_info .p:first-child {
+  font-size: 14px;
+}
+.mapAndBar .mapAndBar_flex .map .mapShow .mapShow_left .left_info_gray {
+  background-image: url('../../../image/13.png');
+  background-repeat: no-repeat;
+  height: 40px;
+  cursor: pointer;
+  width: 100px;
+  margin-top: 14px;
+  line-height: 18px;
+  color: #889cc1;
+}
+.mapAndBar .mapAndBar_flex .map .mapShow .mapShow_left .left_info_gray .p {
+  padding-left: 5px;
+}
+.mapAndBar .mapAndBar_flex .map .mapShow .mapShow_left .left_info_gray .p:first-child {
   font-size: 14px;
 }
 .mapAndBar .mapAndBar_flex .map .mapShow .mapShow_bar {
