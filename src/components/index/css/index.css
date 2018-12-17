@@ -1,0 +1,103 @@
+.body .body_rR {
+  width: 380px;
+  background-color: #303a4e;
+}
+.body .budy_lL {
+  width: 1176px;
+}
+.body .budy_lL .lL_four {
+  display: flex;
+}
+.body .budy_lL .lL_four .four_One {
+  width: 284px;
+  background-color: #303a4e;
+  padding: 14px 30px;
+}
+.body .budy_lL .lL_four .four_One .one_top {
+  font-size: 12px;
+}
+.body .budy_lL .lL_four .four_One .one_top .img {
+  width: 134px ;
+  height: 20px;
+  background-image: url("../image/1.png");
+  background-repeat: no-repeat;
+  color: white;
+  line-height: 20px;
+}
+.body .budy_lL .lL_four .four_One .one_top .years {
+  color: #889cc1;
+}
+.body .budy_lL .lL_four .four_One .one_But .but_liO {
+  width: 2px;
+  height: 40px;
+  margin-left: 10px;
+  background: linear-gradient(0deg, #00c8fb, #01fbe0);
+}
+.body .budy_lL .lL_four .four_One .one_But .but_num {
+  font-size: 22px;
+  color: white;
+  line-height: 40px;
+  margin-left: 8px;
+}
+.body .budy_lL .lL_four .four_One .one_But .but_cycle .cycle_l {
+  color: #acbbc8;
+  line-height: 40px;
+  font-size: 12px;
+}
+.body .budy_lL .lL_four .four_One .one_But .but_cycle .cycle_persent {
+  font-size: 12px;
+  color: #acbbc8;
+  line-height: 40px;
+}
+.header {
+  height: 74px;
+  background: linear-gradient(0deg, #2e3647, #222832);
+  width: 100%;
+  position: relative;
+}
+.header .header_logo {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.header .header_logo .logo_img {
+  width: 1570px;
+  height: 80px;
+  margin: 0 auto;
+  background-image: url("../image/14.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-size: 32px;
+  color: #add9f4;
+  font-weight: bold;
+  line-height: 80px;
+  position: relative;
+}
+.header .header_logo .logo_img .logo_time {
+  position: absolute;
+  right: 0 ;
+  top: 0;
+}
+.header .header_logo .logo_img .logo_time .time_sec {
+  font-size: 40px ;
+  color: #00effc;
+}
+.header .header_logo .logo_img .logo_time .time_week {
+  color: #6d87af;
+  margin-left: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 20px;
+}
+body {
+  background-color: #2e332e;
+}
+.w11570 {
+  width: 1570px;
+  margin: 0 auto;
+}
+.ml14 {
+  margin-left: 14px;
+}

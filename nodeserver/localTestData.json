@@ -1,0 +1,21 @@
+{
+    "test/test/aa":{
+        "type":"post",
+        "data":{
+            "a":"bb",
+            "d":[
+                "a","bb"
+            ]
+        }
+        
+    },
+    "aaa":{
+        "type":"get",
+        "data":{
+            "dd":"dd",
+            "cc":{
+                "dfddsfsd":323
+            }
+       }
+    }
+}
