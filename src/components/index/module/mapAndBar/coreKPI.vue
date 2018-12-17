@@ -48,19 +48,19 @@ export default {
                 type: 'category',
                 data: ['2012', '2013', '2014', '2015', '2016', '2017', '2018'],
                 nameTextStyle:{
-                    color:'#acbbc8'
+                    color:'#eeeeee'
                 },
                 
                 axisLine:{
                     lineStyle:{
-                        color:'#acbbc8'
+                        color:'#eeeeee'
                     }
                 }
             },
             yAxis: {
                 type: 'value',
                 nameTextStyle:{
-                    color:'#acbbc8'
+                    color:'#eeeeee'
                 },
                 splitLine:{
                     lineStyle:{
@@ -69,7 +69,7 @@ export default {
                 },
                 axisLine:{
                     lineStyle:{
-                        color:'#acbbc8'
+                        color:'#eeeeee'
                     }
                 }
             },
@@ -94,18 +94,18 @@ export default {
                         color: new echarts.graphic.LinearGradient(
                             0, 0, 0, 1,
                             [
-                                {offset: 0, color: "rgba(6,35,62,0)"},
-                                {offset: 0.5, color: "rgba(37,49,77,.5)"},
-                                {offset: 1, color: "rgba(55,73,119,1)"}
+                                {offset: 0, color: '#8552ff'},
+                                {offset: 1, color: '#c8adfe'}
                             ]
+                            
                         )
                     },
                     emphasis: {
                         color: new echarts.graphic.LinearGradient(
                             0, 0, 0, 1,
                             [
-                                {offset: 0, color: '#8552ff'},
-                                {offset: 1, color: '#c8adfe'}
+                                {offset: 0, color: '#eb9bcf'},
+                                {offset: 1, color: '#ffbe9f'}
                             ]
                         )
                     }

@@ -32,7 +32,7 @@ export default {
                 text: '两学一做完成情况',
                 left:'left',
                 textStyle: {
-                    color: '#acbbc8',
+                    color: '#eeeeee',
                     fontWeight:'normal',
                     fontSize:'14'
                 }
@@ -40,7 +40,7 @@ export default {
             legend: {
                 data:['按期完成','逾期完成'],
                 textStyle:{
-                    color:"#53728f"
+                    color:"#00a8ff"
                 }
             },
             grid:{
@@ -53,19 +53,19 @@ export default {
                 type: 'category',
                 data: ['董事会/党委会传达落实', '成立贯彻落实方案', '执行方案决策', '内部动员', '阶段性检验验收', '企业执行实施', '总体验收'],
                 nameTextStyle:{
-                    color:'#acbbc8'
+                    color:'#eeeeee'
                 },
                 
                 axisLine:{
                     lineStyle:{
-                        color:'#acbbc8'
+                        color:'#eeeeee'
                     }
                 }
             },
             yAxis: {
                 type: 'value',
                 nameTextStyle:{
-                    color:'#acbbc8'
+                    color:'#eeeeee'
                 },
                 splitLine:{
                     lineStyle:{
@@ -74,7 +74,7 @@ export default {
                 },
                 axisLine:{
                     lineStyle:{
-                        color:'#acbbc8'
+                        color:'#eeeeee'
                     }
                 }
             },

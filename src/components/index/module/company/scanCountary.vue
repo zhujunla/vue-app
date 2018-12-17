@@ -57,7 +57,7 @@ export default {
             radar: {
                 name: {
                     textStyle: {
-                        color: '#acbbc8',
+                        color: '#eeeeee',
                         borderRadius: 3,
                    }
                 },
@@ -81,13 +81,13 @@ export default {
                 splitLine: {
                     lineStyle: {
                         color: [
-                            'rgba(27, 54, 79, 1)'
+                            '#2D4E68'
                         ].reverse()
                     }
                 },
                 axisLine: {
                     lineStyle: {
-                        color:'rgba(27, 54, 79, 1)'
+                        color:'#2D4E68'
                     }
                 }
             },

@@ -43,7 +43,7 @@ export default {
         // legend: {
         //   data: ["搜索引擎"],
         //   textStyle:{
-        //             color:"#53728f"
+        //             color:"#00a8ff"
         //         }
         // },
         // toolbox: {
@@ -61,19 +61,19 @@ export default {
                 type: 'category',
                 data: ['2018-01','2018-02','2018-03','2018-04','2018-05','2018-06','2018-07','2018-08','2018-09','2018-10','2018-11','2018-12'],
                 nameTextStyle:{
-                    color:'#acbbc8'
+                    color:'#eeeeee'
                 },
                 
                 axisLine:{
                     lineStyle:{
-                        color:'#acbbc8'
+                        color:'#eeeeee'
                     }
                 }
             },
             yAxis: {
                 type: 'value',
                 nameTextStyle:{
-                    color:'#acbbc8'
+                    color:'#eeeeee'
                 },
                 splitLine:{
                     lineStyle:{
@@ -82,7 +82,7 @@ export default {
                 },
                 axisLine:{
                     lineStyle:{
-                        color:'#acbbc8'
+                        color:'#eeeeee'
                     }
                 }
             },

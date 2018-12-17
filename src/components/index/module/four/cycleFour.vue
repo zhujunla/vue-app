@@ -15,9 +15,10 @@
                 <div class="fl cycle_l">同比增长</div>
                 <div class="fl ml10">
                     <i-circle 
+                    trail-color="#ffffff"
                     :size="40"
-                    :trail-width="2"
-                    :stroke-width="2"
+                    :trail-width="4"
+                    :stroke-width="4"
                     :percent="four_One.data.persent"
                     stroke-linecap="square"
                     :stroke-color="four_One.color.font">                  

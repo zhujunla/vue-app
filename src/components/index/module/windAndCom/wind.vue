@@ -32,7 +32,7 @@ export default {
             //     text: '两学一做完成情况',
             //     left:'left',
             //     textStyle: {
-            //         color: '#acbbc8',
+            //         color: '#eeeeee',
             //         fontWeight:'normal',
             //         fontSize:'14'
             //     }
@@ -41,7 +41,7 @@ export default {
                 data:['风险事件','未处理',"已处理"],
                 left:'right',
                 textStyle:{
-                    color:"#53728f"
+                    color:"#00a8ff"
                 }
             },
             grid:{
@@ -54,19 +54,19 @@ export default {
                 type: 'category',
                 data: ['2018-01','2018-02','2018-03','2018-04','2018-05','2018-06','2018-07','2018-08','2018-09','2018-10','2018-11','2018-12'],
                 nameTextStyle:{
-                    color:'#acbbc8'
+                    color:'#eeeeee'
                 },
                 
                 axisLine:{
                     lineStyle:{
-                        color:'#acbbc8'
+                        color:'#eeeeee'
                     }
                 }
             },
             yAxis: {
                 type: 'value',
                 nameTextStyle:{
-                    color:'#acbbc8'
+                    color:'#eeeeee'
                 },
                 splitLine:{
                     lineStyle:{
@@ -75,7 +75,7 @@ export default {
                 },
                 axisLine:{
                     lineStyle:{
-                        color:'#acbbc8'
+                        color:'#eeeeee'
                     }
                 }
             },

@@ -35,7 +35,8 @@
   margin-top: 14px;
 }
 .RightInfo .map .mapShow .mapShow_bar .span {
-  color: #acbbc8;
+  color: #eeeeee;
+  font-size: 12px;
 }
 .RightInfo .map .mapShow .coreKPI {
   height: 280px;

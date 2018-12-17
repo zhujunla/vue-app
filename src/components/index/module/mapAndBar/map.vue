@@ -66,15 +66,16 @@ export default {
             // color:"#fff",
               itemStyle:{
                     // normal: {
-                areaColor: "#366AA6",
+                // areaColor: "#366AA6",
+                areaColor: "#00a8ff",
                 borderColor: '#2D5D89',
                 color:"#fff"
                     // }                    
                 },
                 emphasis:{
                     itemStyle:{
-                        areaColor: "#00a8ff",
-                        color:"#fff"
+                        // areaColor: "#00a8ff",
+                        // color:"#fff"
                     }                   
 
                 },
